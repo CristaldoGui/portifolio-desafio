@@ -19,7 +19,8 @@ body{
 #header{
     color: #070F18;
     text-decoration:underline;
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 600;
     margin-top: 49px;
     margin-bottom: 49px;
 }
@@ -68,4 +69,20 @@ body{
     width: 540px;
     height: 400px;
     margin-top: 20px;
+}
+
+#my-clients{
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.div-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#my-clients p{
+    text-align: start;
+    font-weight: 600;
 }
