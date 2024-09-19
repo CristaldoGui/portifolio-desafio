@@ -1,1 +1,36 @@
-        
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#header{
+    color: #070F18;
+    text-decoration:underline;
+    font-size: 20px;
+    margin-top: 49px;
+}
+
+#menu{
+    margin-top: 49px;
+    text-align: end;
+}
+
+#menu ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 14px;
+}
