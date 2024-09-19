@@ -16,6 +16,12 @@ body{
     grid-auto-columns: 1fr;
 }
 
+.container-row{
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-rows: 1fr;
+}
+
 #header{
     color: #070F18;
     text-decoration:underline;
@@ -33,7 +39,7 @@ body{
 #menu ul li{
     list-style: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 14px;
 }
 
@@ -73,7 +79,7 @@ body{
 
 #my-clients{
     padding-top: 7%;
-    padding-bottom: 7%;
+    padding-bottom: 3%;
 }
 
 .div-logo{
@@ -85,4 +91,29 @@ body{
 #my-clients p{
     text-align: start;
     font-weight: 600;
+}
+
+#my-services{
+    text-align: center;
+    font-size: 16px;
+}
+
+#my-services #my-services-text{
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+#my-services #text-red-my-services{
+    color: #F75C4E;
+    font-weight: 800;
+}
+
+#my-services h2{
+    color: #000000;
+    font-size: 36px;
+}
+
+#my-services p{
+    margin-top: 2%;
+    color: #575455;
 }
