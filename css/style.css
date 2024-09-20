@@ -47,6 +47,18 @@ h2{
     margin-left: 14px;
 }
 
+#menu ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#menu ul li:hover{
+    text-decoration: underline;
+    font-size: 18px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
 #div-title{
     display: flex;
     flex-direction: column;
@@ -62,12 +74,17 @@ h2{
 }
 
 .button-blue{
-   background-color: #1F7CFF;
+    background-color: #1F7CFF;
     color: #ffff;
     border-radius: 50px;
     width: 180px;
     height: 48px;
     border: none; 
+}
+
+.button-blue:hover{
+    background-color: #1d5097;
+    cursor: pointer;
 }
 
 #div-image{
@@ -121,6 +138,10 @@ h2{
 #container-email{
     padding-bottom: 8%;
     padding-top: 8%;
+}
+
+#container-email img{
+    width: 100%;
 }
 
 #div-email{
