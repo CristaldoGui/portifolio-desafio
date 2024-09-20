@@ -57,13 +57,13 @@ body{
     font-size: 55px;
 }
 
-#div-title button{
-    background-color: #1F7CFF;
+.button-blue{
+   background-color: #1F7CFF;
     color: #ffff;
     border-radius: 50px;
     width: 180px;
     height: 48px;
-    border: none;
+    border: none; 
 }
 
 #div-image{
@@ -103,17 +103,54 @@ body{
     padding-bottom: 5%;
 }
 
-#my-services #text-red-my-services{
-    color: #F75C4E;
-    font-weight: 800;
-}
+
 
 #my-services h2{
     color: #000000;
     font-size: 36px;
 }
 
-#my-services p{
-    margin-top: 2%;
+.description{
+    margin-top: 20px;
     color: #575455;
+}
+
+.text-red{
+    color: #F75C4E;
+    font-weight: 800;
+}
+
+#container-email{
+    padding-bottom: 5%;
+}
+
+#div-email{
+    padding: 15% 12px 5% 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-size: 16px;
+    color: #575455;
+
+}
+
+#div-email .description{
+    margin: 0;
+}
+
+#div-email h3{
+    font-size: 36px;
+    color: #000000;
+}
+
+#div-email input{
+    background-color: #F5F6FB;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 48px;
+    border-radius: 50px;
+    padding-left: 30px;
+    margin-top: 20px;
 }
