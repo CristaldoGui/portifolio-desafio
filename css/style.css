@@ -10,6 +10,11 @@ body{
     margin-right: 10%;
 }
 
+h2{
+    font-size: 36px;
+    color: #000000;
+}
+
 .container{
     display: grid;
     grid-auto-flow: column;
@@ -19,7 +24,6 @@ body{
 .container-row{
     display: grid;
     grid-auto-flow: row;
-    grid-auto-rows: 1fr;
 }
 
 #header{
@@ -103,13 +107,6 @@ body{
     padding-bottom: 5%;
 }
 
-
-
-#my-services h2{
-    color: #000000;
-    font-size: 36px;
-}
-
 .description{
     margin-top: 20px;
     color: #575455;
@@ -118,10 +115,12 @@ body{
 .text-red{
     color: #F75C4E;
     font-weight: 800;
+    font-size: 16px;
 }
 
 #container-email{
-    padding-bottom: 5%;
+    padding-bottom: 8%;
+    padding-top: 8%;
 }
 
 #div-email{
@@ -153,4 +152,12 @@ body{
     border-radius: 50px;
     padding-left: 30px;
     margin-top: 20px;
+}
+
+#images-portifolio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-bottom: 50px
 }
